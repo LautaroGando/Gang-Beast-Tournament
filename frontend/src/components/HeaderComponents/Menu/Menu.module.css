@@ -1,0 +1,11 @@
+.input:checked+label>div {
+    background-color: transparent;
+}
+
+.input:checked+.label::after {
+    transform: rotate(45deg);
+}
+
+.input:checked+.label::before {
+    transform: rotate(-45deg);
+}
